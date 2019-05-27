@@ -1,0 +1,322 @@
+/* Default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+/* Common settings */
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #F7C08A;
+}
+
+.font-kaushan {
+  font-family: 'Kaushan Script',
+    cursive;
+}
+
+h1,
+h2,
+h3 {
+  padding: 20px 0;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Utitlity*/
+.text-primary {
+  color: #333333;
+}
+
+.text-secondary {
+  color: #F7C08A;
+}
+
+.text-danger {
+  color: rgba(255, 35, 6, 0.884);
+}
+
+.text-light {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.bg-primary {
+  background-color: #333333;
+}
+
+.bg-secondary {
+  background-color: #F7C08A;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 0 10px;
+  overflow: auto;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.active {
+  background-color: #444444;
+  color: #F7C08A;
+}
+
+.card {
+  padding: 20px;
+}
+
+/* Header */
+header#main-header {
+  overflow: auto;
+}
+
+header#main-header ul li {
+  float: left;
+}
+
+header#main-header ul li a {
+  display: block;
+  padding: 27.8px;
+  text-align: center;
+}
+
+/* showcase */
+section#show-case {
+  max-width: 100%;
+  height: 80vh;
+  background: url("/img/showcase.jpg") no-repeat center center/cover;
+}
+
+section#show-case p {
+  padding-bottom: 20px;
+}
+
+section#show-case h1 {
+  font-size: 48px;
+}
+
+section#show-case a {
+  margin-top: 21px;
+}
+
+.show-case-content {
+  padding: 121px 80px;
+}
+
+/* Our story section */
+section#our-story {
+  max-width: 100%;
+  height: 400px;
+}
+
+section#our-story .story-left {
+  width: 50%;
+  background: url(/img/photo-1.jpg) center center/cover;
+  height: 100%;
+}
+
+section#our-story .story-right {
+  width: 50%;
+  height: 100%;
+}
+
+.story-content {
+  padding: 31px;
+}
+
+.story-content a {
+  margin-top: 43px;
+}
+
+/* service */
+section#services {
+  height: 300px;
+  max-width: 100%;
+  background: rgba(146, 145, 145, 0.089);
+}
+
+section#services .location {
+  width: 33.33%;
+}
+
+section#services .meals {
+  width: 33.33%;
+}
+
+section#services .gym {
+  width: 33.33%;
+}
+
+section#services div:nth-child(even) {
+  background-color: #fff;
+  height: 100%;
+}
+
+footer#main-footer {
+  padding: 30px;
+}
+
+/* --------------------------About Page---------------------------- */
+section#about .about-left {
+  width: 60%;
+  padding: 20px;
+  height: 100%;
+}
+section#about {
+  background: rgba(146, 145, 145, 0.089);
+}
+section#about .about-right {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+section#about .container .about-wrapper {
+  height: 400px;
+}
+section#about .about-photo {
+  position: absolute;
+  top: 12vh;
+  left: 0.6vw;
+
+}
+section#about img {
+  border-radius: 50%;
+}
+
+section#about h1 {
+  font-size: 33px;
+}
+
+/* Testmonial */
+section#testmonial {
+  background: url(/img/test-bg.jpg);
+  height: 100vh;
+  overflow: auto;
+}
+
+section#testmonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+section#testmonial .testmonial-body {
+  background: #F0BB88;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 35px;
+  opacity: 0.8;
+}
+section#testmonial .message {
+  margin: 3px;
+  margin-left: 124px;
+}
+
+section#testmonial h1 {
+  font-size: 33px;
+}
+
+section#testmonial .container {
+  margin-top: 94px;
+}
+
+/* --------------------------Contact page------------------------------ */
+section#contact-us input,
+section#contact-us textarea {
+  padding: 8px;
+  border-radius: 5px;
+  resize: none;
+  border: 2px solid rgba(87, 85, 85, 0.212);
+  width: 100%;
+}
+
+section#contact-us label {
+  display: block;
+  padding: 10px;
+}
+
+section#contact-us h1 {
+  font-size: 24px;
+}
+
+section#contact-us .box-shadow {
+  padding: 20px;
+  overflow: auto;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0px black;
+}
+
+section#contact-us .btn {
+  border: 2px solid #333333;
+  color: rgb(71, 67, 67);
+  display: inline-block;
+  margin-top: 10px;
+}
+
+section#contact-us .btn:hover {
+  background: rgb(71, 67, 67);
+  color: #fff;
+}
